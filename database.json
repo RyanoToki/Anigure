@@ -60,4 +60,31 @@
     "from": "Hololive JP",
     "producer": "Max Factory",
     "image": "https://cdn.kyou.id/items/105908-figma-usada-pekora-hololive-production.jpg.webp"
+},
+{
+    "name": "Nakano Yotsuba - Chinese Dress Ver",
+    "slug": "nakano-yotsuba-chinese-dress",
+    "price": 400000,
+    "type": "Action Figure",
+    "from": "GnH",
+    "producer": "FuRyu",
+    "image": "https://cdn.kyou.id/items/261256-minna-no-kuji-figure-nakano-yotsuba-chinese-dress-ver-gotoubun-no-hanayome-18cm.jpg.webp"
+},
+{
+    "name": "Hatsune Miku - Sakura Omutatsu Ver",
+    "slug": "hatsune-miku-sakura-omutatsu",
+    "price": 320000,
+    "type": "Action Figure",
+    "from": "Vocaloid",
+    "producer": "SEGA",
+    "image": "https://cdn.kyou.id/items/184272-luminasta-figure-hatsune-miku-sakura-omutatsu-ver-21cm.jpg.webp"
+},
+{
+    "name": "Rimuru - Tempest Kimono Ver",
+    "slug": "rimuru-tempest-kimono",
+    "price": 1050000,
+    "type": "Action Figure",
+    "from": "Tensura",
+    "producer": "Ichiban Kuji",
+    "image": "https://cdn.kyou.id/items/167142-ichiban-kuji-figure-rimuru-tempest-kimono-ver-tensura-kazu-makoku-renpu-a-prize-14cm.jpg.webp"
 }]
