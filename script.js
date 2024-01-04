@@ -11,7 +11,7 @@ window.lazyLoad = new LazyLoad();
 })();
 
 async function getProducts() {
-    const dummy = document.querySelector(".product");
+    const dummy = document.querySelector(".product.dummy");
     const parent = dummy.parentElement;
     
     const format = new Intl.NumberFormat("id-ID");
@@ -19,14 +19,13 @@ async function getProducts() {
     
     for (const item of database) {
         const product = dummy.cloneNode(true);
+        product.removeAttribute("style");
+        product.classList.remove("dummy");
+        
         const thumb = product.querySelector(".thumb img");
-        const image = (item.image.includes("http"))
-            ? item.image
-            : "img/products/" + item.image;
+        const image = item.image;
         
         thumb.className = "lazy";
-        thumb.removeAttribute("src");
-        thumb.removeAttribute("data-ll-status");
         thumb.setAttribute("data-src", image);
         
         product.querySelector(".product-title").innerHTML = item.name;
