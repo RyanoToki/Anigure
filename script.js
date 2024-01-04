@@ -66,3 +66,7 @@ function closeProduct() {
     popup.classList.add("hidden");
     document.body.style = "";
 }
+
+function notImplemented() {
+    alert("Fungsi belum diimplementasikan ;)");
+}
