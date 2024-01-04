@@ -48,6 +48,50 @@
             </div>
         </nav>
         
+        <div class="popup-modal hidden">
+            <div class="container-lg h-100 d-flex align-items-center">
+            <div class="popup rounded-2 hidden">
+                <span onclick="closeProduct();" class="close"><i class="bx bx-x"></i></span>
+                <div class="row row-cols-1 row-cols-md-2 gy-2 gy-md-0">
+                    <div class="col col-md-5 left">
+                        <div class="thumb rounded-2">
+                            <img src="https://cdn.kyou.id/items/105908-figma-usada-pekora-hololive-production.jpg.webp" alt="Thumbnail" width="100%" />
+                        </div>
+                    </div>
+                    <div class="col right">
+                        <div class="h4 mb-1">Figma Usada Pekora</div>
+                        <div class="h5 m-0 text-info">Rp 1.000.000</div>
+                        <div class="opacity-50 small">Terjual 758 | <i class="lh-1 bx bxs-star"></i> 4/5</div>
+                        
+                        <ul class="mb-4 mt-4">
+                            <li class="d-flex flex-column">
+                                <span class="fw-bolder">Dari</span>
+                                <span>Hololive JP</span>
+                            </li>
+                            <li class="d-flex flex-column">
+                                <span class="fw-bolder">Tipe</span>
+                                <span>Action Figure</span>
+                            </li>
+                            <li class="d-flex flex-column">
+                                <span class="fw-bolder">Produsen</span>
+                                <span>Max Factory</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="row row-cols-2 gx-1 gy-0">
+                            <div class="col">
+                                <button class="btn btn-info text-white w-100" type="submit">Beli Sekarang</button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info w-100" type="submit">+ Keranjang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
         <div id="header" class="container-lg mb-5">
             <div class="row row-cols-1 row-cols-md-2 mt-3 gy-4 gy-md-0">
                 <div class="col text-center text-md-start d-flex align-items-md-center">
@@ -67,7 +111,7 @@
             <div class="w-100 bg-white shadow-custom rounded-2 p-3">
                 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 gx-2 gy-3">
                     <!-- Dummy Element Product -->
-                    <div class="col product dummy" style="display: none;">
+                    <div class="col product dummy" onclick="product(this.id)" style="display: none;">
                         <div class="thumb rounded-1">
                             <img alt="Thumbnail" width="100%" />
                         </div>

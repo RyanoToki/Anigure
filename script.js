@@ -1,4 +1,8 @@
+const popupModal = document.querySelector(".popup-modal");
+const popup = document.querySelector(".popup");
+
 window.lazyLoad = new LazyLoad();
+let products = {};
 
 (() => {
     window.onload = () => {
@@ -7,7 +11,7 @@ window.lazyLoad = new LazyLoad();
         }, 1000);
     }
     
-    getProducts();
+    getProducts().then(res => products = res);
 })();
 
 async function getProducts() {
@@ -21,6 +25,7 @@ async function getProducts() {
         const product = dummy.cloneNode(true);
         product.removeAttribute("style");
         product.classList.remove("dummy");
+        product.id = item.slug;
         
         const thumb = product.querySelector(".thumb img");
         const image = item.image;
@@ -33,6 +38,20 @@ async function getProducts() {
         product.querySelector(".price").innerHTML = "Rp " + format.format(item.price);
         
         parent.appendChild(product);
-        lazyLoad.update();
     }
+    
+    lazyLoad.update();
+    return database;
+}
+
+function product(id) {
+    popupModal.classList.remove("hidden");
+    popup.classList.remove("hidden");
+    document.body.style.overflow = "hidden";
+}
+
+function closeProduct() {
+    popupModal.classList.add("hidden");
+    popup.classList.add("hidden");
+    document.body.style = "";
 }
