@@ -144,4 +144,19 @@ footer a {
     width: 100%;
 }
 
-/* Too lazy */
+@supports not (aspect-ratio: 1/1) {
+    .thumb {
+        position: relative;
+        margin-bottom: .2rem;
+        padding-top: 100%;
+        width: 100%;
+        background: gainsboro;
+        overflow: hidden;
+    }
+    
+    .thumb img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
