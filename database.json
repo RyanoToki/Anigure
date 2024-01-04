@@ -1,12 +1,24 @@
 [{
     "name": "Hu Tao Ghost Lamp",
     "price": 580000,
-    "type": "Lamp",
+    "type": "Other",
     "from": "Genshin Impact",
     "producer": "Mihoyo",
-    "images": [
-        "102336-hu-tao-ghost-night-lamp-15x14cm-genshin-impact.jpg.webp",
-        "102337-hu-tao-ghost-night-lamp-15x14cm-genshin-impact.jpg.webp",
-        "102338-hu-tao-ghost-night-lamp-15x14cm-genshin-impact.jpg.webp"
-    ]
+    "image": "102338-hu-tao-ghost-night-lamp-15x14cm-genshin-impact.jpg.webp"
+},
+{
+    "name": "Nendoroid Mafumafu",
+    "price": 1150000,
+    "type": "Nendoroid",
+    "from": "Mafumafu",
+    "producer": "Good Smile Company",
+    "image": "https://cdn.kyou.id/items/154287-nendoroid-mafumafu-hikikomori-set-mafumafu.jpg.webp"
+},
+{
+    "name": "FigZero 1/6 Power",
+    "price": 2450000,
+    "type": "Action Figure",
+    "from": "Chainsaw Man",
+    "producer": "Threezero",
+    "image": "https://cdn.kyou.id/items/181025-figzero-16-action-figure-power-chainsaw-man.jpg.webp"
 }]

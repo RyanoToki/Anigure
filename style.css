@@ -40,6 +40,7 @@ nav button {
 
 .product {
     cursor: pointer;
+    overflow: hidden;
 }
 
 .thumb {
@@ -47,6 +48,14 @@ nav button {
     width: 100%;
     background: gainsboro;
     overflow: hidden;
+}
+
+.product-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bolder;
+    width: 100%;
 }
 
 /* Too lazy */
