@@ -9,13 +9,17 @@ body {
     -webkit-tap-highlight-color: inherit;
 }
 
+img:not([src]):not([srcset]) {
+    visibility: hidden;
+}
+
 nav button {
     background: none;
     border: none;
     color: #fff;
     font-size: 1.6rem;
     line-height: 0;
-    padding: 0 .2rem;
+    padding: 0 .3rem;
 }
 
 .loading {
@@ -38,16 +42,30 @@ nav button {
     visibility: hidden;
 }
 
+.shadow-custom {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 .product {
     cursor: pointer;
     overflow: hidden;
 }
 
 .thumb {
+    margin-bottom: .2rem;
     aspect-ratio: 1/1;
     width: 100%;
     background: gainsboro;
     overflow: hidden;
+}
+
+.thumb .lazy {
+    opacity: 0;
+    transition: .5s;
+}
+
+.thumb .lazy.loaded {
+    opacity: 1;
 }
 
 .product-title {

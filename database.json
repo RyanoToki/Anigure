@@ -1,13 +1,15 @@
 [{
-    "name": "Hu Tao Ghost Lamp",
-    "price": 580000,
-    "type": "Other",
-    "from": "Genshin Impact",
-    "producer": "Mihoyo",
-    "image": "102338-hu-tao-ghost-night-lamp-15x14cm-genshin-impact.jpg.webp"
+    "name": "Nendoroid Ui Shigure",
+    "slug": "nendoroid-ui-shigure",
+    "price": 880000,
+    "type": "Nendoroid",
+    "from": "Virtual Youtuber",
+    "producer": "Good Smile Arts Shanghai",
+    "image": "https://cdn.kyou.id/items/147371-nendoroid-shigure-ui-virtual-youtuber.jpg.webp"
 },
 {
     "name": "Nendoroid Mafumafu",
+    "slug": "nendoroid-mafumafu",
     "price": 1150000,
     "type": "Nendoroid",
     "from": "Mafumafu",
@@ -16,9 +18,46 @@
 },
 {
     "name": "FigZero 1/6 Power",
+    "slug": "figzero-power",
     "price": 2450000,
     "type": "Action Figure",
     "from": "Chainsaw Man",
     "producer": "Threezero",
     "image": "https://cdn.kyou.id/items/181025-figzero-16-action-figure-power-chainsaw-man.jpg.webp"
+},
+{
+    "name": "PVC 1/7 Elaina",
+    "slug": "pvc-elaina",
+    "price": 2700000,
+    "type": "Action Figure",
+    "from": "Majo no Tabitabi",
+    "producer": "Union Creative",
+    "image": "https://cdn.kyou.id/items/146241-pvc-figure-17-elaina-majo-no-tabitabi.jpg.webp"
+},
+{
+    "name": "PVC 1/7 Klee",
+    "slug": "pvc-klee",
+    "price": 3250000,
+    "type": "Action Figure",
+    "from": "Genshin Impact",
+    "producer": "APEX",
+    "image": "https://cdn.kyou.id/items/235243-with-bonus-shikishi-pvc-figure-17-klee-spark-knight-ver.jpg.webp"
+},
+{
+    "name": "PVC 1/7 Minato Aqua",
+    "slug": "pvc-minato-aqua",
+    "price": 3250000,
+    "type": "Action Figure",
+    "from": "Hololive JP",
+    "producer": "Good Smile Company",
+    "image": "https://cdn.kyou.id/items/112718-pvc-figure-17-minato-aqua-aqua-iro-super-dream-ver.jpg.webp"
+},
+{
+    "name": "Figma Usada Pekora",
+    "slug": "figma-usada-pekora",
+    "price": 1049000,
+    "type": "Action Figure",
+    "from": "Hololive JP",
+    "producer": "Max Factory",
+    "image": "https://cdn.kyou.id/items/105908-figma-usada-pekora-hololive-production.jpg.webp"
 }]
