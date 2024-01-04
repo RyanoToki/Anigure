@@ -1,7 +1,7 @@
+window.lazyLoad = new LazyLoad();
+
 (() => {
     window.onload = () => {
-        window.lazyLoad = new LazyLoad();
-        
         setTimeout(() => {
             document.querySelector(".loading").classList.add("hidden");
         }, 1000);
