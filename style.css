@@ -65,8 +65,18 @@ footer a {
     transition: .3s;
 }
 
+.popup-modal .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    opacity: .7;
+    line-height: 0;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
 .popup {
-    position: relative;
     background: #fff;
     width: calc(100% - 9px);
     max-height: 80%;
@@ -93,17 +103,6 @@ footer a {
 .hidden, .popup.hidden {
     opacity: 0;
     visibility: hidden;
-}
-
-.popup .close {
-    position: absolute;
-    right: 0;
-    top: 0;
-    cursor: pointer;
-    opacity: .5;
-    line-height: 0;
-    font-size: 1.5rem;
-    color: #000;
 }
 
 .popup.hidden {
