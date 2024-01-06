@@ -110,15 +110,6 @@
             <h4>Daftar Produk</h4>
             <div class="w-100 bg-white shadow-custom rounded-2 p-3">
                 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 gx-2 gy-3">
-                    <!-- Loading product -->
-                    <div class="w-100 text-center product-loading">
-                        <div class="spinner-border mb-1" style="color: #6DC8E3;" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                        <br />
-                        <span>Memuat Produk...</span>
-                    </div>
-                    
                     <!-- Dummy Element Product -->
                     <div class="col product dummy" onclick="product(this.id)" style="display: none;">
                         <div class="thumb rounded-1">
@@ -131,6 +122,19 @@
                         <span class="price text-info">Rp 0</span>
                     </div>
                     <!-- End Dummy -->
+                    
+                    <!-- Loading product -->
+                    <div class="w-100 text-center product-loading">
+                        <div class="spinner-border mb-1" style="color: #6DC8E3;" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <br />
+                        <span>Memuat Produk...</span>
+                    </div>
+                    <!-- End Loading -->
+                    
+                    <!-- Load More button -->
+                    <button onclick="loadMore();" class="ms-auto me-auto mt-4 btn btn-outline-info d-none more" type="submit">Muat Lainnya</button>
                 </div>
             </div>
         </div>

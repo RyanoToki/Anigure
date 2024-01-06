@@ -1,5 +1,7 @@
 const popupModal = document.querySelector(".popup-modal");
 const popup = document.querySelector(".popup");
+const loading = document.querySelector(".product-loading");
+const more = document.querySelector(".more");
 
 const format = new Intl.NumberFormat("id-ID");
 const lazy = new LazyLoad();
@@ -31,11 +33,13 @@ async function getProducts() {
         product.querySelector(".from").innerHTML = item.from;
         product.querySelector(".price").innerHTML = "Rp " + format.format(item.price);
         
-        parent.appendChild(product);
+        parent.insertBefore(product, loading);
     }
     
     lazy.update();
-    document.querySelector(".product-loading").style.display = "none";
+    loading.classList.add("d-none");
+    more.classList.remove("d-none");
+    
     return database;
 }
 
@@ -60,7 +64,14 @@ function product(id) {
 function closeProduct() {
     popupModal.classList.add("hidden");
     popup.classList.add("hidden");
-    document.body.style = "";
+    document.body.removeAttribute("style");
+}
+
+function loadMore() {
+    more.classList.add("d-none");
+    loading.classList.remove("d-none");
+    
+    getProducts().then(res => products = res);
 }
 
 function notImplemented() {
