@@ -35,6 +35,7 @@ async function getProducts() {
     }
     
     lazy.update();
+    document.querySelector(".product-loading").style.display = "none";
     return database;
 }
 
