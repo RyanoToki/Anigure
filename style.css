@@ -80,7 +80,7 @@ footer a {
     background: #fff;
     width: calc(100% - 9px);
     max-height: 80%;
-    padding: 1.3rem;
+    border: 1.3rem solid #fff;
     visibility: visible;
     opacity: 1;
     transform: translateY(0);
