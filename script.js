@@ -1,17 +1,12 @@
 const popupModal = document.querySelector(".popup-modal");
 const popup = document.querySelector(".popup");
-const format = new Intl.NumberFormat("id-ID");
 
-window.lazyLoad = new LazyLoad();
+const format = new Intl.NumberFormat("id-ID");
+const lazy = new LazyLoad();
 let products = [];
 
 (() => {
-    window.onload = () => {
-        setTimeout(() => {
-            document.querySelector(".loading").classList.add("hidden");
-        }, 1000);
-    }
-    
+    window.onload = () => document.querySelector(".loading").classList.add("hidden");
     getProducts().then(res => products = res);
 })();
 
@@ -39,7 +34,7 @@ async function getProducts() {
         parent.appendChild(product);
     }
     
-    lazyLoad.update();
+    lazy.update();
     return database;
 }
 
