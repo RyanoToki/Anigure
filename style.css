@@ -19,9 +19,12 @@ img:not([src]):not([srcset]) {
     visibility: hidden;
 }
 
-nav button {
+button {
     background: none;
     border: none;
+}
+
+nav button {
     color: #fff;
     font-size: 1.6rem;
     line-height: 0;
@@ -69,7 +72,7 @@ footer a {
     position: absolute;
     right: 0;
     top: 0;
-    cursor: pointer;
+    padding: 0;
     opacity: .7;
     line-height: 0;
     font-size: 2.5rem;
