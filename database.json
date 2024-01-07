@@ -12,7 +12,7 @@
     "slug": "nendoroid-mafumafu",
     "price": 1150000,
     "type": "Nendoroid",
-    "from": "Mafumafu",
+    "from": "Utaite",
     "producer": "Good Smile Company",
     "image": "https://cdn.kyou.id/items/154287-nendoroid-mafumafu-hikikomori-set-mafumafu.jpg.webp"
 },
@@ -66,7 +66,7 @@
     "slug": "nakano-yotsuba-chinese-dress",
     "price": 400000,
     "type": "Action Figure",
-    "from": "GnH",
+    "from": "Gotoubun no Hanayome",
     "producer": "FuRyu",
     "image": "https://cdn.kyou.id/items/261256-minna-no-kuji-figure-nakano-yotsuba-chinese-dress-ver-gotoubun-no-hanayome-18cm.jpg.webp"
 },
@@ -87,4 +87,58 @@
     "from": "Tensura",
     "producer": "Ichiban Kuji",
     "image": "https://cdn.kyou.id/items/167142-ichiban-kuji-figure-rimuru-tempest-kimono-ver-tensura-kazu-makoku-renpu-a-prize-14cm.jpg.webp"
+},
+{
+    "name": "Nendoroid Gojo Satoru - High School Ver",
+    "slug": "nendoroid-gojo-satoru-high-school",
+    "price": 980000,
+    "type": "Nendoroid",
+    "from": "Jujutsu Kaisen",
+    "producer": "Good Smile Company",
+    "image": "https://cdn.kyou.id/items/215659-nendoroid-gojo-satoru-high-school-ver-jujutsu-kaisen.jpg.webp"
+},
+{
+    "name": "Nendoroid Marnie",
+    "slug": "nendoroid-marnie",
+    "price": 1200000,
+    "type": "Nendoroid",
+    "from": "Pokemon",
+    "producer": "Good Smile Company",
+    "image": "https://cdn.kyou.id/items/103318-nendoroid-marnie-pokemon-sword-and-shield.jpg.webp"
+},
+{
+    "name": "Nendoroid Anya Forger",
+    "slug": "nendoroid-anya-forger",
+    "price": 580000,
+    "type": "Nendoroid",
+    "from": "SPY x FAMILY",
+    "producer": "Good Smile Company",
+    "image": "https://cdn.kyou.id/items/128356-nendoroid-anya-forger-spy-x-family.jpg.webp"
+},
+{
+    "name": "Maomao",
+    "slug": "maomao",
+    "price": 510000,
+    "type": "Action Figure",
+    "from": "Kusuriya no Hitorigoto",
+    "producer": "Good Smile Company",
+    "image": "https://cdn.kyou.id/items/259438-pop-up-parade-maomao-kusuriya-no-hitorigoto.jpg.webp"
+},
+{
+    "name": "Nyatasha Nyanners",
+    "slug": "nyatasha-nyanners",
+    "price": 580000,
+    "type": "Action Figure",
+    "from": "VShojo",
+    "producer": "Good Smile Company",
+    "image": "https://cdn.kyou.id/items/153657-pop-up-parade-figure-nyatasha-nyanners-vshojo.jpg.webp"
+},
+{
+    "name": "Nendoroid Nyatasha Nyanners",
+    "slug": "nendroid-nyatasha-nyanners",
+    "price": 720000,
+    "type": "Nendoroid",
+    "from": "VShojo",
+    "producer": "Good Smile Company",
+    "image": "https://cdn.kyou.id/items/130919-nendoroid-nyatasha-nyanners-vshojo.jpg.webp"
 }]

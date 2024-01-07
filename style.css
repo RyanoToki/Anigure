@@ -135,11 +135,10 @@ footer a {
     opacity: 1;
 }
 
-.product-title {
+.product-title, .from {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-weight: bolder;
     width: 100%;
 }
 

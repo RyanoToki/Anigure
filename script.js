@@ -5,6 +5,7 @@ const more = document.querySelector(".more");
 
 const format = new Intl.NumberFormat("id-ID");
 const lazy = new LazyLoad();
+let page = 0;
 let products = [];
 
 (() => {
@@ -16,8 +17,9 @@ async function getProducts() {
     const dummy = document.querySelector(".product.dummy");
     const parent = dummy.parentElement;
     const database = await fetch("database.json").then(res => res.json());
+    const data = database.slice(page, page + 10);
     
-    for (const item of database) {
+    for (const item of data) {
         const product = dummy.cloneNode(true);
         product.removeAttribute("style");
         product.classList.remove("dummy");
@@ -33,12 +35,16 @@ async function getProducts() {
         product.querySelector(".from").innerHTML = item.from;
         product.querySelector(".price").innerHTML = "Rp " + format.format(item.price);
         
-        parent.insertBefore(product, loading);
+        parent.appendChild(product);
     }
     
     lazy.update();
+    if (database.slice(page, page + 11).length > data.length) {
+        more.classList.remove("d-none");
+    } else {
+        more.parentElement.classList.add("d-none");
+    }
     loading.classList.add("d-none");
-    more.classList.remove("d-none");
     
     return database;
 }
@@ -71,6 +77,7 @@ function loadMore() {
     more.classList.add("d-none");
     loading.classList.remove("d-none");
     
+    page += 10; // Next page
     getProducts().then(res => products = res);
 }
 
